@@ -2,9 +2,8 @@ Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
-config.assets.compile = false #To stop run time assets precompile in production.
-config.assets.digest = true  #To access assets which are precompiled and in their names have appendend digets by rails
-config.cache_classes = true #allowing caching assets
+  config.cache_classes = true
+
   config.serve_static_assets = true
 
   # Eager load code on boot. This eager loads most of Rails and
@@ -29,6 +28,11 @@ end
   # Compress JavaScripts and CSS.
   # config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
+
+  # Do not fallback to assets pipeline if a precompiled asset is missed.
+  config.assets.compile = true
+
+  config.assets.digest = true
     
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
 
