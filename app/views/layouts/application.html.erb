@@ -63,7 +63,8 @@
 </footer>
       <script src="jquery.js"></script>
       <script>
-          // Create default option "Go to..."
+          var main = function() {
+// Create default option "Go to..."
           $("<option />", {
           "selected": "selected",
           "value"   : "",
@@ -80,6 +81,9 @@
           $("nav select").change(function() {
           window.location = $(this).find("option:selected").val();
           });
+          }
+
+$(document).ready(main);
       </script>
       
   </body>

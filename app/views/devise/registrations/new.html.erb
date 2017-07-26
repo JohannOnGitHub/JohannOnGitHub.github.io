@@ -101,26 +101,16 @@
 </form>
     <%= javascript_include_tag :defaults, "nested_form" %>
     
-    <!--<script src="http://blazeworx.com/jquery.flagstrap.min.js"></script>
     <script>
-        $(document).ready(function () {
-        $('.location').flagStrap({
-        buttonType: "btn-default",
-        placeholder: {
-        value: "",
-        text: "your country of residence",
-    }
-        });
-        });
-    </script>-->
-    
-    <script>
+    var main = function() {
     $('.datepicker').datepicker({
     keyboardNavigation: true,
     altField: '#date_of_birth',
     startView: 2,
     format: 'yyyy-mm-dd'
-    });
+    });}
+    
+    $(document).ready(main);
     </script>
     
 </body>
