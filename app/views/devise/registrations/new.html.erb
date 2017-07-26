@@ -99,7 +99,19 @@
         <%= render "devise/shared/links" %></div></div>
     
 </form>
-script>"nested_form">main=function(){$(".datepicker").datepicker({keyboardNavigation:!0,altField:"#date_of_birth",startView:2,format:"yyyy-mm-dd"})},$(document).ready(main);
+    <%= javascript_include_tag :defaults, "nested_form" %>
+    
+    <script>
+    var main = function() {
+    $('.datepicker').datepicker({
+    keyboardNavigation: true,
+    altField: '#date_of_birth',
+    startView: 2,
+    format: 'yyyy-mm-dd'
+    });}
+    
+    $(document).ready(main);
+    </script>
     
 </body>
     <% end %><% end %>
