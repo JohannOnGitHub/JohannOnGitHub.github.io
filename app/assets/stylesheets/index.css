@@ -92,6 +92,7 @@
 .slide-feature1 a.btn{
     text-align: center;
     margin-left: auto;
+    margin-bottom: 10px;
 	border: 2px solid #2F467F;
     border-radius: 10px;
     width: 350px;
