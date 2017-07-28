@@ -47,6 +47,7 @@
 
 .active-slide a.btn{
     text-align: center;
+    margin-left: auto;
 	border: 2px solid #2F467F;
     border-radius: 10px;
     width: 350px;
@@ -209,9 +210,10 @@
     top: -130px;
     margin-bottom: -223px; 
 }
-.text-jumbotron h2 {
+.text-jumbotron h2 a {
   font-size: 50px;
   font-weight: 400;
+  text-decoration: none;
   margin: 0;
   color: #fff;
   filter: brightness(1.2);
