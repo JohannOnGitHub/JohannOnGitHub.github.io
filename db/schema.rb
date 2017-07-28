@@ -40,7 +40,7 @@ ActiveRecord::Schema.define(version: 20170625141459) do
     t.string   "first_name"
     t.string   "last_name"
     t.string   "profession"
-    t.datetime "date_of_birth"
+    t.string   "date_of_birth"
     t.boolean  "is_female",              default: false
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
