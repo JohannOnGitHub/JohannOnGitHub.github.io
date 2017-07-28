@@ -5,5 +5,6 @@ class AddInfoToUsers < ActiveRecord::Migration[5.0]
     add_column :users, :last_name, :string
     add_column :users, :profession, :string
     add_column :users, :date_of_birth, :string
-    add_column :users, :is_female, :boolean default: false end
+    add_column :users, :is_female, :boolean, :default => false
+  end
 end
