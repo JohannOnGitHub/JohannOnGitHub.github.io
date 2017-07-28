@@ -295,7 +295,7 @@
   @include box_sizing;
 }
 
-@media only screen and (max-width: 768px) {
+@media handheld, screen and (max-width: 768px) {
     .active-slide h1 {
     font-size: 30px;
     margin-top: 25%;
