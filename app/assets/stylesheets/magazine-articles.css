@@ -8,6 +8,17 @@
   width: 100%;
   height: 200px;
 }
+.five-reasons-why-you-should-become-a-social-entrepreneur {
+  background: url('https://static.pexels.com/photos/505836/pexels-photo-505836.jpeg') center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-position: left;
+  filter: brightness(0.7);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+}
 
 .text-jumbotron{
     z-index: 9999;
@@ -23,10 +34,21 @@
   filter: brightness(1.2);
 }
 
+.text-jumbotron h4 {
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: -30px;
+  color: #fff;
+  filter: brightness(1.2);
+}
+
 .article p {
    padding: 0% 12% 0% 10%;
    text-align: left;
    font-size: 17px;
+}
+.article p a {
+    text-decoration: none;
 }
 
 .btn-info {
