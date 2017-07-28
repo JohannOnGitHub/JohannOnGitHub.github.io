@@ -305,6 +305,12 @@
     .active-slide p {
     font-size: 16px;  
     }
+    .active-slide a.btn {
+    width: 250px;
+    }
+    .active-slide a.btn:hover {
+    width: 250px;
+    }
     .slide-feature1 h1 {
     font-size: 30px;
     margin-top: 25%;
@@ -312,12 +318,24 @@
     .slide-feature1 p {
     font-size: 16px;  
     }
+    .slide-feature1 a.btn {
+    width: 250px;
+    }
+    .slide-feature1 a.btn:hover {
+    width: 250px;
+    }
     .slide-feature2 h1 {
     font-size: 30px;
     margin-top: 25%;
 }
     .slide-feature2 p {
     font-size: 16px;  
+    }
+    .slide-feature2 a.btn {
+    width: 250px;
+    }
+    .slide-feature2 a.btn:hover {
+    width: 250px;
     }
     .text-jumbotron h2 {
     font-size: 40px;  
@@ -332,5 +350,11 @@
     .article2 {
     width: 100%;
     margin-bottom: 100px;
+    }
+    .section-end a.btn {
+    width: 250px;
+    }
+    .section-end a.btn:hover {
+    width: 250px;
     }
 }
