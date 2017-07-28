@@ -46,6 +46,7 @@
 }
 
 .active-slide a.btn{
+    text-align: center;
 	border: 2px solid #2F467F;
     border-radius: 10px;
     width: 350px;
