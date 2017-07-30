@@ -17,28 +17,6 @@
  <header class="container-fluid">
   <div class="row">
       <h1 class="col-sm-4"><%= link_to 'Sustainize', "http://www.sustainize.com", data: { turbolinks: 'false'} %></h1>
-  <nav class="col-sm-8 text-right">
-  <ul>
-      <li><a href="http://www.sustainize.com/pages/opportunities">Opportunities</a></li>
-      <li><a href="http://www.sustainize.com/pages/invest">Invest</a></li>
-      <li><a href="http://www.sustainize.com/pages/magazine">Magazine</a></li>
-      <li><%= link_to 'About', "http://www.sustainize.com/pages/about", data: { turbolinks: 'false'} %></li> 
-          <li><% if user_signed_in? %>
-  <div class="dropdown">
-  <a class="dropbtn"><img src="https://cdn.pixabay.com/photo/2016/03/31/20/37/client-1295901_960_720.png"></a>
-  <div class="dropdown-content">
-      <%= link_to 'Edit profile', edit_user_registration_path %>
-      <%= link_to "Logout", destroy_user_session_path, method: :delete  %>
-  </div>
-  </div>
-      <% else %>
-      <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link', data: { turbolinks: 'false'} %> |
-      <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
-      <% end %></li>
-  </ul>
-  <select> 
-  </select> 
-  </nav>
   </div>
 </header>     
       
